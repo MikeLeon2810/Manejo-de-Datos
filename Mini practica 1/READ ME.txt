@@ -1,0 +1,10 @@
+José Miguel Domínguez León
+Num.Cuenta: 317516870
+Correo: miguelleo@ciencias.unam.mx
+
+Nota 1: Como me enfermé falté varios días la semana pasada y no agarré equipo así que decidí trabajar solo
+espero que eso no sea un problema.
+
+Nota 2: Veran que en la carpeta ya hay un .txt llamado resultados eso es porque probé el código 3 y funcionó
+Si quieren ver que efectivamenrte funciona recomiendo eliminarlo y correr el código E3.
+

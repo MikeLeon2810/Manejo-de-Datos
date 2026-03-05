@@ -1,0 +1,6 @@
+Deporte, numero_deportistas, promedio_edad, total_años
+Futbol, 4, 17, 19
+Baloncesto, 1, 17, 5
+Voleibol, 1, 16, 4
+Hockey, 1, 15, 2
+Handball, 1, 16, 2
