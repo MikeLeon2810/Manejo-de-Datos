@@ -176,3 +176,50 @@ def boyer_moore(texto, patron):
             else:
                 i = i + k
             k = m-1
+
+
+
+##############################
+#Funcion para abrir el archivo txt 
+##################################
+def leer_archivo(nombre_archivo):
+    lista = []
+    
+    with open(nombre_archivo, "r", encoding="utf-8") as archivo:
+        for linea in archivo:
+            lista.append(linea.strip())
+    
+    return lista
+
+
+#######################################
+# Función para escribir en el archivo txt
+##########################################
+def escribir_archivo(nombre_archivo, lista):
+    with open(nombre_archivo, "w", encoding="utf-8") as archivo:
+        for linea in lista:
+            archivo.write(linea + "\n")    
+
+
+
+
+
+# Función para generar el reporte de implicados en plagio
+
+def generar_reporte(lista):
+    implicados = []
+    
+    for linea in lista:
+        partes = linea.split(maxsplit=2)
+        
+        if len(partes) < 3:
+            continue
+        
+        nombre = partes[0] + " " + partes[1]
+        comentario = partes[2].lower()
+        
+        # AQUÍ usas Boyer-Moore
+        if boyer_moore(comentario, "plagio") != -1:
+            implicados.append(nombre)
+    
+    return implicados
