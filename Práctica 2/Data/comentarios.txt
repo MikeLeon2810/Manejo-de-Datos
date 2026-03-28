@@ -1,0 +1,35 @@
+Flores, Mariana | El alumno ha mostrado un excelente desempeño en las prácticas.
+Flores, Mariana | Participa activamente en clase y resuelve las dudas de sus compañeros.
+Flores, Mariana | Necesita mejorar su comprensión de la notación Big O.
+Gomez, Ana | Se detectó una alta similitud con el código de otro compañero, posible caso de plagio en la tarea 3.
+Gomez, Ana | Entregó el trabajo a tiempo, pero el código es poco legible.
+Gomez, Ana | Necesita mejorar su comprensión de la notación Big O.
+Gomez, Ana | Participa activamente en clase y resuelve las dudas de sus compañeros.
+Hernandez, Diego | Excelente lógica algorítmica, muy buen proyecto final.
+Hernandez, Diego | Necesita mejorar su comprensión de la notación Big O.
+Hernandez, Diego | Se detectó una alta similitud con el código de otro compañero, posible caso de plagio en la tarea 3.
+Lopez, Luis | El alumno ha mostrado un excelente desempeño en las prácticas.
+Lopez, Luis | Se detectó una alta similitud con el código de otro compañero, posible caso de plagio en la tarea 3.
+Lopez, Luis | Participa activamente en clase y resuelve las dudas de sus compañeros.
+Martinez, Sofia | Participa activamente en clase y resuelve las dudas de sus compañeros.
+Martinez, Sofia | Entregó el trabajo a tiempo, pero el código es poco legible.
+Martinez, Sofia | Se detectó una alta similitud con el código de otro compañero, posible caso de plagio en la tarea 3.
+Mendoza, Alejandro | El alumno ha mostrado un excelente desempeño en las prácticas.
+Mendoza, Alejandro | Entregó el trabajo a tiempo, pero el código es poco legible.
+Mendoza, Alejandro | Necesita mejorar su comprensión de la notación Big O.
+Perez, Juan | Entregó el trabajo a tiempo, pero el código es poco legible.
+Perez, Juan | Participa activamente en clase y resuelve las dudas de sus compañeros.
+Perez, Juan | El alumno ha mostrado un excelente desempeño en las prácticas.
+Perez, Juan | Se detectó una alta similitud con el código de otro compañero, posible caso de plagio en la tarea 3.
+Ramirez, Jorge | Necesita mejorar su comprensión de la notación Big O.
+Ramirez, Jorge | El alumno ha mostrado un excelente desempeño en las prácticas.
+Ramirez, Jorge | Participa activamente en clase y resuelve las dudas de sus compañeros.
+Rodriguez, Carlos | Necesita mejorar su comprensión de la notación Big O.
+Rodriguez, Carlos | Se detectó una alta similitud con el código de otro compañero, posible caso de plagio en la tarea 3.
+Rodriguez, Carlos | Entregó el trabajo a tiempo, pero el código es poco legible.
+Torres, Valentina | Participa activamente en clase y resuelve las dudas de sus compañeros.
+Torres, Valentina | Entregó el trabajo a tiempo, pero el código es poco legible.
+Torres, Valentina | El alumno ha mostrado un excelente desempeño en las prácticas.
+Vargas, Camila | Necesita mejorar su comprensión de la notación Big O.
+Vargas, Camila | Se detectó una alta similitud con el código de otro compañero, posible caso de plagio en la tarea 3.
+Vargas, Camila | El alumno ha mostrado un excelente desempeño en las prácticas.
