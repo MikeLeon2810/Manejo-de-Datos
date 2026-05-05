@@ -12,14 +12,14 @@ def valida_rfc(rfc):
     if not match:
         return False
     
-    anio = int(match.group(2))
+    ano = int(match.group(2))
     mes = int(match.group(3))
     dia = int(match.group(4))
     
-    anio_completo = 1900 + anio if anio >= 30 else 2000 + anio
+    ano_completo = 1900 + ano if ano >= 30 else 2000 + ano
     
     try:
-        datetime(anio_completo, mes, dia)
+        datetime(ano_completo, mes, dia)
     except ValueError:
         return False
     
@@ -102,10 +102,6 @@ def valida_ean(codigo):
     
     return es_valido, pais
 
-
-# ---------------------------
-# PROBLEMA 4: Lista Ligada Circular + Josephus
-# ---------------------------
 # ---------------------------
 # PROBLEMA 4: Lista Circular + Josephus
 # ---------------------------
