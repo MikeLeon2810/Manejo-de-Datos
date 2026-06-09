@@ -7,7 +7,7 @@ import pandas as pd
 
 def leer_datos(nombre_archivo):
     """
-    Lee el archivo CSV y regresa un DataFrame.
+    Lee el archivo CSV y regresa un DataFrame
     """
     return pd.read_csv(nombre_archivo)
 
