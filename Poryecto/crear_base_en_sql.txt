@@ -35,7 +35,7 @@ CREATE TABLE vehiculo (
 
 
 CREATE TABLE rutas (
-    id_ruta INT AUTO_INCREMENT PRIMARY KEY,
+    id_rutas INT AUTO_INCREMENT PRIMARY KEY,
 
     id_region INT,
     id_vehiculo INT,
@@ -56,14 +56,14 @@ CREATE TABLE rutas (
 CREATE TABLE entrega (
     id_entrega INT AUTO_INCREMENT PRIMARY KEY,
 
-    id_ruta INT,
+    id_rutas INT,
     id_paquete INT,
     id_socio INT,
 
     modo VARCHAR(50),
     tiempo_entrega DECIMAL(10,2),
 
-    retraso BOOLEAN,
+    retraso VARCHAR(3),
 
     clima VARCHAR(50),
 
@@ -71,8 +71,8 @@ CREATE TABLE entrega (
 
     calificacion INT,
 
-    FOREIGN KEY (id_ruta)
-        REFERENCES rutas(id_ruta),
+    FOREIGN KEY (id_rutas)
+        REFERENCES rutas(id_rutas),
 
     FOREIGN KEY (id_paquete)
         REFERENCES paquete(id_paquete),
