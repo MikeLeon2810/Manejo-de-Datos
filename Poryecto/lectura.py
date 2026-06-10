@@ -6,9 +6,6 @@ import pandas as pd
 # ==========================================================
 
 def leer_datos(nombre_archivo):
-    """
-    Lee el archivo CSV y regresa un DataFrame
-    """
     return pd.read_csv(nombre_archivo)
 
 
@@ -20,6 +17,7 @@ def leer_datos(nombre_archivo):
 # ==========================================================
 
 def obtener_valores_unicos(df):
+
     return pd.DataFrame({
         "socios": pd.Series(sorted(df["delivery_partner"].unique())),
         "tipos_paquete": pd.Series(sorted(df["package_type"].unique())),
@@ -39,7 +37,7 @@ def paquete_mas_y_menos_enviado(df):
 
     conteo = df["package_type"].value_counts()
 
-    resultado = pd.DataFrame({
+    return pd.DataFrame({
         "categoria": ["Más enviado", "Menos enviado"],
         "tipo_paquete": [
             conteo.idxmax(),
@@ -50,8 +48,6 @@ def paquete_mas_y_menos_enviado(df):
             conteo.min()
         ]
     })
-
-    return resultado
 
 
 # ==========================================================
@@ -87,8 +83,8 @@ def estadisticas_distancia(df):
 
 # ==========================================================
 # PREGUNTA 5
-# Por cada vehículo:
-# peso promedio, máximo y mínimo de los paquetes
+# Por cada tipo de vehículo:
+# peso promedio, peso máximo y peso mínimo
 # ==========================================================
 
 def estadisticas_peso_por_vehiculo(df):
@@ -119,29 +115,37 @@ def main():
     pregunta4 = estadisticas_distancia(df)
     pregunta5 = estadisticas_peso_por_vehiculo(df)
 
-    print("\n========== PREGUNTA 1 ==========")
+    
+
+    print("\n" )
+    print("PREGUNTA 1")
+    print("Tipos de paquetes, vehículos, modos de entrega, regiones,")
+    print("condiciones climáticas y socios registrados.")
     print(pregunta1)
 
-    print("\n========== PREGUNTA 2 ==========")
+
+    print("\n" )
+    print("PREGUNTA 2")
+    print("Tipo de paquete más enviado y menos enviado.")
     print(pregunta2)
 
-    print("\n========== PREGUNTA 3 ==========")
+
+    print("\n" )
+    print("PREGUNTA 3")
+    print("Cantidad de envíos por región.")
     print(pregunta3)
 
-    print("\n========== PREGUNTA 4 ==========")
+
+    print("\n" )
+    print("PREGUNTA 4")
+    print("Estadísticas descriptivas de la distancia de entrega.")
     print(pregunta4)
 
-    print("\n========== PREGUNTA 5 ==========")
+
+    print("\n" )
+    print("PREGUNTA 5")
+    print("Peso promedio, máximo y mínimo por tipo de vehículo.")
     print(pregunta5)
-
-    # Guardar resultados en CSV
-    pregunta1.to_csv("pregunta1_valores_unicos.csv", index=False)
-    pregunta2.to_csv("pregunta2_paquetes.csv", index=False)
-    pregunta3.to_csv("pregunta3_envios_region.csv", index=False)
-    pregunta4.to_csv("pregunta4_distancias.csv", index=False)
-    pregunta5.to_csv("pregunta5_pesos_vehiculo.csv", index=False)
-
-    print("\nArchivos CSV generados correctamente.")
 
 
 if __name__ == "__main__":
